@@ -1,6 +1,9 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: "http://localhost:8000" });
+// const API = axios.create({ baseURL: "http://localhost:8000" });
+const API = axios.create({
+  baseURL: "https://multi-vendor-fabric-store-backend.onrender.com",
+});
 
 // Attach token to each request if user is logged in
 API.interceptors.request.use((req) => {
