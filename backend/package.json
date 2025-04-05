@@ -1,0 +1,32 @@
+{
+  "engine":{
+    "node":"20.11.0"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for Multi_Vendor_Fabric_Store",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "ecommerce"
+  ],
+  "author": "Ritik Yadav",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "connect-flash": "^0.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.12.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9"
+  }
+}
